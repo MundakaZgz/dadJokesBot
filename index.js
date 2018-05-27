@@ -8,8 +8,6 @@ const fs = require('fs');
 const cats = require('cats-js');
 const token = require('./config/tokensFile.js');
 
-console.log(token);
-
 const bot = new TelegramBot(token, {polling: true, filepath: false});
 
 var mimimimi = false;
