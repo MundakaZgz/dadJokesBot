@@ -1,4 +1,4 @@
-process.env["NTBA_FIX_319"] = 1;
+//process.env["NTBA_FIX_319"] = 1;
 
 const TelegramBot = require('node-telegram-bot-api');
 const Promise = require('bluebird');
@@ -13,6 +13,7 @@ const bot = new TelegramBot(token, {polling: true, filepath: false});
 var mimimimi = false;
 var c = new cats();
 
+/*
 bot.onText(/#pobreJA/i, (msg) => {
   bot.sendMessage(msg.chat.id, 'Right, pobre JA');
 });
@@ -113,3 +114,5 @@ this.getDog = function() {
       });
   });
 }
+
+*/

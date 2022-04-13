@@ -7,8 +7,7 @@
     "start": "NODE_ENV=PROD node index.js",
     "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "semantic-release": "semantic-release",
-    "travis-deploy-once": "travis-deploy-once"
+    "semantic-release": "semantic-release"
   },
   "keywords": [
     "dad",
@@ -19,16 +18,15 @@
   "author": "Jose A. Herrero",
   "license": "ISC",
   "dependencies": {
-    "bluebird": "^3.5.3",
+    "bluebird": "^3.7.2",
     "cats-js": "^1.0.2",
-    "node-telegram-bot-api": "^0.30.0",
+    "node-telegram-bot-api": "^0.50.0",
     "request": "^2.88.0",
-    "require": "^2.4.20"
+    "require": "^0.4.4"
   },
   "devDependencies": {
-    "nodemon": "^1.18.6",
-    "semantic-release": "^15.12.1",
-    "travis-deploy-once": "^5.0.0"
+    "nodemon": "^2.0.15",
+    "semantic-release": "^19.0.2"
   },
   "repository": {
     "type": "git",
