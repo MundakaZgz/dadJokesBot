@@ -1,10 +1,6 @@
 //process.env["NTBA_FIX_319"] = 1;
 
 const TelegramBot = require('node-telegram-bot-api');
-const Promise = require('bluebird');
-const path = require('path');
-const request =  require('request');
-const fs = require('fs');
 const cats = require('cats-js');
 const token = require('./config/tokensFile.js');
 

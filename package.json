@@ -1,13 +1,12 @@
 {
   "name": "dadjokesbot",
-  "version": "0.0.0-development",
+  "version": "0.0.1",
   "description": "Dad jokes bot",
   "main": "index.js",
   "scripts": {
     "start": "NODE_ENV=PROD node index.js",
     "dev": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "semantic-release": "semantic-release"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "dad",
@@ -16,17 +15,13 @@
     "bot"
   ],
   "author": "Jose A. Herrero",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
-    "bluebird": "^3.7.2",
     "cats-js": "^1.0.2",
-    "node-telegram-bot-api": "^0.50.0",
-    "request": "^2.88.0",
-    "require": "^0.4.4"
+    "node-telegram-bot-api": "^0.61.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.15",
-    "semantic-release": "^19.0.2"
+    "nodemon": "^2.0.15"
   },
   "repository": {
     "type": "git",
